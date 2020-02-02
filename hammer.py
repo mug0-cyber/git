@@ -27,6 +27,7 @@ def my_bots():
 	global bots
 	bots=[]
 	bots.append("http://validator.w3.org/check?uri=")
+    bots.append("http://www.facebook.com/sharer/sharer.php?u=")
 	bots.append("https://entourage.prod.aws.godaddy.com/domainsapi/v1/search/exact?q=")
     bots.append("https://entourage.prod.aws.godaddy.com/domainsapi/v1/search/smartbundles?q=")
     bots.append("https://entourage.prod.aws.godaddy.com/domainsapi/v1/crosssell/all?sld=")
